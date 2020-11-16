@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+body h1 {
+  font-size: 3rem;
+  font-weight: 50;
+  margin: 1rem 0 3rem;
+  text-align: center;
+  color: white;
+}
+
+body h1 .styling {
+  color: lime;
+  font-weight: bold;
+}
+
+body .input_div {
+  text-align: center;
+}
+
+body .input_div .input {
+  padding: 0.5rem 1rem;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  width: 450px;
+  font-size: 1.15rem;
+  margin: 0.25rem;
+  border-radius: 25px;
+}
+
+body .input_div .addButton {
+  height: 50px;
+  width: 50px;
+  background-color: lime;
+  border-radius: 50px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  outline: none;
+}
+
+body .input_div .addButton:hover {
+  background-color: #16be00;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+body .container .item {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 4px solid white;
+}
+
+body .container .item .item_input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 350px;
+  font-size: 1.4rem;
+  color: white;
+}
+
+body .container .item .editbtn {
+  background: none;
+  outline: none;
+  border: none;
+  color: lime;
+  font-size: 1.4rem;
+  margin: 0 0.75rem;
+  cursor: pointer;
+}
+
+body .container .item .deletebtn {
+  background: none;
+  outline: none;
+  border: none;
+  color: red;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
