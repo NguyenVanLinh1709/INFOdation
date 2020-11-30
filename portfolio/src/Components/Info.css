@@ -43,14 +43,22 @@
 
 .userInfo{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .userInfo p{
     font-weight: bold;
 }
 
+.fas{
+    margin-right: 5px;
+}
+
 .userPhone{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .userPhone p{
