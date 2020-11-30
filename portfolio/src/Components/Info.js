@@ -5,8 +5,9 @@ import insta from '../img/insta.png';
 import inimg from '../img/in.jpg';
 import github from '../img/github.png';
 import twitter from '../img/twitter.png';
-import '../../node_modules/font-awesome/css/font-awesome.min.css';
-import 'font-awesome/css/font-awesome.min.css';
+//import '../node_modules/font-awesome/css/font-awesome.min.css';
+// import '../../node_modules/font-awesome/css/font-awesome.css';
+import '@fortawesome/fontawesome-free/css/all.css';
 import './Info.css';
 
 const NAME = 'Husky';
