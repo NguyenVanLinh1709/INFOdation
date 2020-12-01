@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  height: 1000px;
+}
+
+.App h1 {
+  font-size: 50px;
+  color: lime;
+}
+
+.App .add-tasks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0 20px 0;
+}
+
+.App .add-tasks .input {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: transparent;
+  border: solid 1px red;
+  border-radius: 10px;
+  width: 400px;
+  outline: none;
+  color: white;
+}
+
+.App .add-tasks .btn {
+  background-color: lime;
+  color: black;
+  border-radius: 10px;
+  outline: none;
+  width: 55px;
+  font-weight: bold;
+  border: none;
+  margin-left: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.App .add-tasks .btn:hover {
+  background-color: #4dff4d;
+}
+
+.App .tasks-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .tasks-list .task-element {
+  margin: 5px 0;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: lime;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.App .tasks-list .task-element .btn-del {
+  border: none;
+  background-color: red;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 0 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.App .tasks-list .task-element .btn-del:hover {
+  background-color: #ff3232;
+}
+/*# sourceMappingURL=App.css.map */
