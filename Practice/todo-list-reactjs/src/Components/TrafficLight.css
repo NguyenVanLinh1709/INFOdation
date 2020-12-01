@@ -1,0 +1,30 @@
+.TracfficLight{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.buld{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    opacity: 0.2;
+}
+
+.active{
+    opacity: 1;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}

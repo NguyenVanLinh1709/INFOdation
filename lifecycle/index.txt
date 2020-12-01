@@ -1,0 +1,18 @@
+Mounting
+    - Xay ra 1 lan
+    - Cho cac element vao DOM
+        constructor() // set up state va cac gia tri ban dau khac
+        getDerivedStateFromProps() // thiet lap cac state dua tren cac props ban dau
+        render()
+        componentDidMount()
+Updating
+    - Xay ra nhieu lan
+    - Xay ra khi prop hoac state thay doi
+        getDerivedStateFromProps()
+        shouldComponentUpdate() // kiem tra co nen thuc hien cac method duoi nua hay ko
+        render()
+        getSnapshotBeforeUpdate()
+        componentDidUpdate()
+Unmounting
+    - Xay ra 1 lan
+	    componentWillUnmount()

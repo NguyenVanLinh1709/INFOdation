@@ -1,0 +1,34 @@
+=========> Help to functional component better, powerfull, can use state
+functional component can use state, life cycle and another features like class
+
+demo: ====> useState is a hook <====
+    import React, {useState} from 'react';
+    function ColorBox(){
+        const [color, setColor] = useState('red');
+    }
+=========> Return output of useState is an array with 2 elements
+
+When use? 
+We can you hook when we want to use state or life cycle but not use class, hook can do it in function
+Hook cannot work in class 
+
+=========> useState use replacing replace for merging
+with class (setState)
+    this.state = { name: 'Linh', age: 22}
+    this.setState({age: 20})
+    ==> { name: 'Linh', age: 20}
+with function (useState)
+    const [person, setPerson] = useState({ name: 'Linh', age: 22});
+    setPerson ({ age: 20})
+    ==> { age: 20 }
+Solution
+    const [person, setPerson] = useState({ name: 'Linh', age: 22});
+    setPerson ({...person, age: 20})
+    ==> { name: 'Linh', age: 20}
+
+=========> initial state just use for the first time
+notice to use call back to excuted initial one time, demo:
+    const [color, setColor] = useState(() => {
+        const initColor = getComplicatedColor();
+        return initColor;
+    })

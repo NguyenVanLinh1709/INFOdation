@@ -1,0 +1,23 @@
+state thuong duoc khoi tao trong constructor dung de luu tru cac properties cua component
+constructor(props) {
+    super(props);
+    this.state = {
+	brand: "Ford"
+	model: "Mustang"
+	};
+}
+dinh nghia tat ca cac props cua component trong this.state
+state can change, khi state thay doi thi component do se duoc render lai
+co the thay doi state thong qua ham setState
+vd: changeColor = () => {
+    this.setState({color: "blue"});
+  }
+state chi dung trong noi bo component
+
+
+props se duoc khoi tao trong component cha va truyen den component con bang {this.props.state}
+tao props trong component cha giong nhu tao mot attribute trong html element <Car value='0' />
+constructor(props) {
+    super(props);
+}
+props are read-only
