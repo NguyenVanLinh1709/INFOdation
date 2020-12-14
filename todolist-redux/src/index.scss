@@ -1,0 +1,71 @@
+$light-gray: rgb(185, 185, 185);
+$light-black: rgb(70, 70, 70);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .container {
+    margin: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: $light-gray;
+    border: 1px solid $light-gray;
+    h1 {
+      color: $light-black;
+    }
+    .add-to-form {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 8px;
+      input {
+        outline: none;
+        border: none;
+        width: 80%;
+        border-bottom: 1px solid $light-black;
+        background-color: transparent;
+      }
+      .btn-submit {
+        background-color: $light-black;
+        color: $light-gray;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 5px 15px;
+        border-radius: 3px;
+        &:hover {
+          background-color: white;
+        }
+      }
+    }
+    .todolist {
+      padding-top: 8px;
+      display: flex;
+      justify-content: space-between;
+      .todo-item {
+        margin-right: 5px;
+      }
+      .del-btn {
+        background-color: $light-black;
+        color: $light-gray;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 5px 15px;
+        border-radius: 3px;
+        &:hover {
+          background-color: white;
+        }
+      }
+    }
+  }
+}
